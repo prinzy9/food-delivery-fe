@@ -8,7 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 export class AuthService {
 
   //url = 'http://localhost:3000/api/login';
-  private url = "https://food-delivery-be-six.vercel.app";
+  private url = "https://food-delivery-be-three.vercel.app";
 
   private tokenSubject: BehaviorSubject<string | null>;
   public token$: any;

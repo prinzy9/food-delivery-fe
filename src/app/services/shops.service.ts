@@ -14,7 +14,7 @@ export class ShopsService {
 
   //private url = 'https://server-node-igna.vercel.app/shops';
   //private url = 'http://localhost:3000';
-  private url = "https://food-delivery-be-six.vercel.app";
+  private url = "https://food-delivery-be-three.vercel.app";
 
 
   getShops(): Observable<Shop[]> {
